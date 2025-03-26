@@ -1,0 +1,64 @@
+.main-photo {
+    width: 100vw;
+    height: 95vh;
+    object-fit: cover;
+}
+
+/* Style the navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.main-album {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.pad {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+body {
+    background-color: #080611;
+    color: #fff;
+}
+
+/* Customizing the navbar's color */
+.navbar-custom {
+    background-color: #110f1d; /* Green background */
+    color: #ffffff; /* White text */
+}
+
+.nav-contents {
+    color: #ffffff; /* White text */
+}
+
+.to-do {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #19142c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-size: 1em !important;
+  }
+  
+  /* Remove default margins on the paragraph */
+footer p {
+    margin: 0;
+}
+
+.landing {
+    box-shadow: radial-gradient(transparent 50%, black);
+}
